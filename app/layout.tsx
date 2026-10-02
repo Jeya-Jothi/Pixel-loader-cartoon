@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://pixel-loader-cartoon.onrender.com"),
   title: {
     default:
       "Pixel Loader | Animated Pixel Portrait Loader for React & Next.js",
