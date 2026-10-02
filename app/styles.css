@@ -1,0 +1,39 @@
+.pixel-loader {
+  aspect-ratio: 70 / 79;
+  width: 55vw;
+  max-width: 200px;
+}
+
+.pixel-loader__canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.pixel-loader-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+@media (min-width: 640px) {
+  .pixel-loader {
+    max-width: 260px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pixel-loader {
+    max-width: 340px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pixel-loader {
+    max-width: 520px;
+  }
+}
